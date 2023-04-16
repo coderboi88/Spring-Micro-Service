@@ -1,0 +1,17 @@
+pluginManagement {
+    plugins {
+        id 'java'
+        id 'org.springframework.boot' version '3.0.5'
+        id 'io.spring.dependency-management' version '1.1.0'
+    }
+}
+
+
+rootProject.name = 'MicroService-Concept'
+include 'order-service'
+include 'product'
+include 'api-gateway-service'
+include 'inventory-service'
+include 'discovery-server'
+include 'notification-service'
+
